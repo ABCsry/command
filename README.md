@@ -468,7 +468,9 @@ python3 dirsearch.py -e php,html,js -u https://target --proxy 127.0.0.1:8080
 ```
 python3 dirsearch.py -e php,html,js -u https://target --proxy socks5://10.10.0.1:8080
 ```
-
+## python 起一个http服务
+python2 -m SimpleHTTPServer 80
+python3 -m http.server 80
 ## nbtscan
 
 ```
